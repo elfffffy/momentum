@@ -1,4 +1,4 @@
-const API_KEY = 'cf2f94f127dabdade6d0c777e44143cd';
+const API_KEY = config.apikey;
 const weatherIcon = ['rain.png']
 
 function onGeoOk(position) {
