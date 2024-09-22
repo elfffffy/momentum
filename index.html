@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="wrap">
+        <section class="section01 off">
+            <div class="inner">
+                <form class="content login_form">
+                    <h2>What is your name?</h2>
+                    <input type="text" class="input_name" required maxlength="10">
+                    <button class="start">Start</button>
+                </form><!-- content end -->
+            </div><!-- .inner end -->
+        </section><!-- .section01 end -->
+
+        <section class="section02 off">
+            <div class="inner">
+                <div class="content">
+                    <h2 class="greeting">Welcome, Elffy!</h2>
+                </div><!-- .content end -->
+            </div><!-- .inner end -->
+        </section><!-- sectioin02 -->
+
+        <section class="section03 off">
+            <div class="inner">
+                <div class="content">
+                    <h2 class="greeting">Welcome Back, Elffy!</h2>
+                </div><!-- .content end -->
+            </div><!-- .inner end -->
+        </section><!-- sectioin03 -->
+
+        <section class="main off">
+            <div class="inner">
+                <div class="content">
+                    <div class="top">
+                        <div class="profile">
+                            <figure></figure>
+
+                            <div class="text">
+                                <h3></h3>
+                                <button class="change">️🔄️ Change the user</button>
+                            </div><!-- .text end -->
+                        </div><!-- .profile end -->
+
+                        <div class="weather">
+                            <p class="date"></p>
+                            <div class="weather_info">
+                                <span class="icon"></span>
+                                <span class="city"></span>
+                                <span class="temp"></span>
+                            </div><!-- .weather_info end -->
+                        </div><!-- weather end -->
+                    </div><!-- .top end -->
+
+                    <div class="middle">
+                        <div class="list">
+                            <h4>To Do List</h4>
+                            <ul class="todo_list"></ul>
+                            <form class="todo_form">
+                                <input type="text" placeholder="+ 추가하기" required>
+                            </form><!-- todo_form end -->
+                        </div><!-- .list end -->
+
+                        <div class="right">
+                            <h3 class="clock"></h3>
+
+                            <div id="music"></div>
+
+                        </div><!-- .right end -->
+                    </div><!-- .middle end -->
+                </div><!-- .content end -->
+            </div><!-- inner end -->
+
+            <div class="quote">
+                <span class="words"></span>
+                <span class="person"></span>
+            </div><!-- .quote end -->
+        </section><!-- .main end -->
+
+        <div class="alert">
+            <p>All of your information is deleted.</p>
+            <div class="buttons">
+                <button class="changeOk">Confirm</button>
+                <button class="changeNo">Cancel</button>
+            </div><!-- buttons end -->
+        </div><!-- .alert end -->
+    </div><!-- .wrap end -->
+
+    <script src="js/greeting.js"></script>
+    <script src="js/backroundImg.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/time.js"></script>
+    <script src="js/music.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="js/changeUser.js"></script>
+</body>
+
+</html>
