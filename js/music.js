@@ -1,4 +1,4 @@
-const apiKey = 'AIzaSyBGeKE5msCR9EfUZdeZ6D79JQcWhenLV0w';
+const apiKey = config.apikey;
 const playlistId = 'PLt7bG0K25iXi07OYe7jBTXvvdGItGM25I';
 let music;
 
