@@ -9,7 +9,7 @@ function onYouTubeIframeAPIReady() {
         playerVars: {
             listType: 'playlist',
             list: playlistId,
-            controls: 1
+            controls: 1,
         },
         event: {
             'onReady': onPlayerReady,
