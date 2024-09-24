@@ -1,7 +1,12 @@
-import config from "./apikey.js";
-const API_KEY = config.apikey;
+// import config from "./apikey.js";
+// const API_KEY = config.apikey;
+
+import dotenv from "dotenv";
+dotenv.config();
 
 console.log(API_KEY);
+
+const API_KEY = process.env.API_KEY;
 
 function onGeoOk(position) {
     const lat = position.coords.latitude;
