@@ -1,6 +1,7 @@
 import config from "./apikey.js";
 const API_KEY = config.apikey;
-const weatherIcon = ['rain.png']
+
+console.log(API_KEY);
 
 function onGeoOk(position) {
     const lat = position.coords.latitude;
